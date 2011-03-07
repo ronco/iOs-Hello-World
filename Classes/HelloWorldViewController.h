@@ -9,8 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface HelloWorldViewController : UIViewController {
+	UILabel  *label;
+	UIButton *button;
 
 }
+
+@property (nonatomic, retain) IBOutlet UILabel *label;
+
+-(IBAction)sayHello:(id) sender;
 
 @end
 

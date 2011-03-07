@@ -10,6 +10,12 @@
 
 @implementation HelloWorldViewController
 
+@synthesize label;
+
+-(IBAction) sayHello:(id) sender {
+	label.text = @"Hello World";
+}
+
 
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
